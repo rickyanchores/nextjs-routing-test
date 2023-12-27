@@ -1,11 +1,14 @@
 import React from 'react'
 
-const Products = () => {
+const ProductList = () => {
   return (
-    <div className='Products'>
-        <h1>Products</h1>
+    <div className='ProductList'>
+      <h1>ProductList</h1>
+      <h2>Product One</h2>
+      <h2>Product Two</h2>
+      <h2>Product Three</h2>
     </div>
   )
 }
 
-export default Products
+export default ProductList;
